@@ -50,4 +50,4 @@ jobs:
           app-name: 'config-server01'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ADDC044173CE424FBA57D934A945CCCE }}
-          package: '*.war'
+          package: '*.jar'
